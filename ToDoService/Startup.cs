@@ -84,8 +84,6 @@ namespace ToDoService
            .AddXmlSerializerFormatters();
 
             RegisterServices(services);
-            //s//ervices.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
-            //RegisterValidatorService(services);
 
             services.AddSwaggerGen(s =>
             {
